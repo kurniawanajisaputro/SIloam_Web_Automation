@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="48" time="817.204">
+    <testcase classname="Login Positif" name="Test001 Valid Login Username (User)" time="15.117">
+        <system-out><![CDATA[When Test001 Membuka Halaman Login..........................................passed
+And Test001 Clear Field Username Dan Password...............................passed
+And Test001 Input TextField K6400001 Yang Valid One.........................passed
+And Test001 Input TextField a Yang Valid Two................................passed
+And Test001 Klik Tombol Login...............................................passed
+And Test001 Klik Profil.....................................................passed
+Then Test001 Klik Logout....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Negatif" name="Test002 Login Negatif (User)" time="8.601">
+        <system-out><![CDATA[When Test002 Membuka Halaman Login..........................................passed
+And Test002 Clear Field Username Dan Password...............................passed
+And Test002 Input TextField Username Kosong.................................passed
+And Test002 Input TextField Password Kosong.................................passed
+Then Test002 Klik Tombol Login Dan Validation...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Negatif" name="Test103 Login Negatif Password Invalid (user)" time="5.01">
+        <system-out><![CDATA[And Test103 Clear Field Username Dan Password...............................passed
+And Test103 Input TextField Username Valid K6400001.........................passed
+And Test103 Input TextField Password Invalid b..............................passed
+Then Test103 Klik Tombol Login Dan Validation...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Negatif" name="Test104 Login Negatif Username Invalid (user)" time="5.899">
+        <system-out><![CDATA[And Test104 Clear Field Username Dan Password...............................passed
+And Test104 Input TextField Username Invalid K6400000.......................passed
+And Test104 Input TextField Password Valid a................................passed
+Then Test104 Klik Tombol Login Dan Validation...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Negatif" name="Test105 Login Negatif Username Invalid Dan Password Invalid (user)" time="5.774">
+        <system-out><![CDATA[And Test105 Clear Field Username Dan Password...............................passed
+And Test105 Input TextField Username Invalid K6400000.......................passed
+And Test105 Input TextField Password Invalid b..............................passed
+Then Test105 Klik Tombol Login Dan Validation...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Positif" name="Test003 Valid Login Username (User)" time="8.547">
+        <system-out><![CDATA[When Test003 Membuka Halaman Login..........................................passed
+And Test003 Clear Field Username Dan Password...............................passed
+And Test003 Input TextField K6400001 Yang Valid One.........................passed
+And Test003 Input TextField a Yang Valid Two................................passed
+And Test003 Klik Tombol Login...............................................passed
+Then Test003 Validasi Pada Halaman Home.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Positif" name="Test004 Valid Input Data" time="21.638">
+        <system-out><![CDATA[When Test004 Klik Tombol Input..............................................passed
+And Test004 Validasi Halaman Form Input.....................................passed
+And Test004 Input TextField siapa saya Valid Satu...........................passed
+And Test004 Input TextField 1248674570982 Valid Dua.........................passed
+And Test004 Input TextField 4128946273017369 Valid Tiga.....................passed
+And Test004 Input TextField di sini Valid Empat.............................passed
+And Test004 Input TextField KOTA JAKARTA SELATAN Valid Lima.................passed
+And Test004 Input TextField di sana Valid Enam..............................passed
+And Test004 Input TextField Siloam Clinic Grand Galaxy Valid Tujuh..........passed
+And Test004 Input TextField ingin Valid Delapan.............................passed
+Then Test004 Klik Tombol Simpan Data........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Positif" name="Test005 Valid Upload Foto" time="19.2">
+        <system-out><![CDATA[When Test005 Validasi Halaman Upload Dokumen................................passed
+And Test005 Klik Upload Foto Faskes Awal....................................passed
+And Test005 Memilih \foto\excel_ms-5bfc379146e0fb00511cdefe.jpg Pada Komputer Satu.passed
+And Test005 Klik Simpan Foto Faskes Awal....................................passed
+Then Test005 Klik Ok Data Faskes Awal Berhasil Upload.......................passed
+And Test005 Klik Upload Foto Faskes Tujuan..................................passed
+And Test005 Memilih \foto\kissclipart-struktur-data-clipart-data-management-big-data-0756d9f65df60146.jpg Pada Komputer Dua.passed
+And Test005 Klik Simpan Foto Faskes Tujuan..................................passed
+And Test005 Klik Ok Data Faskes Tujuan Berhasil Upload......................passed
+And Test005 Klik Upload Foto Tanda Tangan...................................passed
+And Test005 Memilih \foto\TABLEAU_SOFTWARE_LOGOjpg_Logo.jpg Pada Komputer Tiga.passed
+And Test005 Klik Simpan Foto Tanda Tangan...................................passed
+And Test005 Klik Ok Data Tanda Tangan Berhasil Upload.......................passed
+And Test005 Validasi Dokumen Lengkap........................................passed
+And Test005 Klik Selanjutnya................................................passed
+Then Test005 Klik Ok Pop Up.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Positif" name="Test006 Tanda Tangan Digital" time="8.694">
+        <system-out><![CDATA[When Test006 Validasi Halaman Tanda Tangan Digital..........................passed
+And Test006 Scroll Paling Bawah.............................................passed
+And Test006 Klik Tombol Submit..............................................passed
+And Test006 Klik Ok Pop Up..................................................passed
+And Test006 Klik Profil.....................................................passed
+And Test006 Klik Logout.....................................................passed
+Then Test006 Validasi Login Page............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Positif" name="Test007 Valid Login Username (Admin)" time="9.378">
+        <system-out><![CDATA[When Test007 Clear Field Username Dan Password..............................passed
+And Test007 Input TextField admindika Yang Valid One........................passed
+And Test007 Input TextField d1k4@passw0rd Yang Valid Two....................passed
+And Test007 Klik Tombol Login...............................................passed
+And Test007 Validasi Pada Halaman Home......................................passed
+And Test007 Klik Profil.....................................................passed
+Then Test007 Klik Logout....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test106 Login Valid  (User)" time="8.207">
+        <system-out><![CDATA[When Test106 Membuka Halaman Login..........................................passed
+And Test106 Clear Field Username Dan Password...............................passed
+And Test106 Input TextField K6400001 Yang Valid One.........................passed
+And Test106 Input TextField a Yang Valid Two................................passed
+And Test106 Klik Tombol Login...............................................passed
+Then Test106 Validasi Pada Halaman Home.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test107 Input Data Nama Field Empty (User)" time="21.254">
+        <system-out><![CDATA[When Test107 Klik Tombol Input..............................................passed
+And Test107 Validasi Halaman Form Input.....................................passed
+And Test107 Input TextField Nama ...........................................passed
+And Test107 Input TextField noBpjs 1248674570256............................passed
+And Test107 Input TextField noKtp 4128946273017666..........................passed
+And Test107 Input TextField Alamat dimana...................................passed
+And Test107 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test107 Input TextField FaskesAwal di mana..............................passed
+And Test107 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test107 Input TextField Alasan ingin....................................passed
+Then Test107 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test108 Input Data NoBPJS Field Empty (User)" time="20.97">
+        <system-out><![CDATA[When Test108 Klik Tombol Input..............................................passed
+And Test108 Validasi Halaman Form Input.....................................passed
+And Test108 Input TextField Nama mamamia....................................passed
+And Test108 Input TextField noBpjs .........................................passed
+And Test108 Input TextField noKtp 4128946273017666..........................passed
+And Test108 Input TextField Alamat dimana...................................passed
+And Test108 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test108 Input TextField FaskesAwal di mana..............................passed
+And Test108 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test108 Input TextField Alasan ingin....................................passed
+Then Test108 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test109 Input Data NoKTP Field Empty (User)" time="20.871">
+        <system-out><![CDATA[When Test109 Klik Tombol Input..............................................passed
+And Test109 Validasi Halaman Form Input.....................................passed
+And Test109 Input TextField Nama mamamia....................................passed
+And Test109 Input TextField noBpjs 1248674570256............................passed
+And Test109 Input TextField noKtp ..........................................passed
+And Test109 Input TextField Alamat dimana...................................passed
+And Test109 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test109 Input TextField FaskesAwal di mana..............................passed
+And Test109 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test109 Input TextField Alasan ingin....................................passed
+Then Test109 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test110 Input Data Alamat Field Empty (User)" time="21.192">
+        <system-out><![CDATA[When Test110 Klik Tombol Input..............................................passed
+And Test110 Validasi Halaman Form Input.....................................passed
+And Test110 Input TextField Nama mamamia....................................passed
+And Test110 Input TextField noBpjs 1248674570256............................passed
+And Test110 Input TextField noKtp 4128946273017666..........................passed
+And Test110 Input TextField Alamat .........................................passed
+And Test110 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test110 Input TextField FaskesAwal di mana..............................passed
+And Test110 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test110 Input TextField Alasan ingin....................................passed
+Then Test110 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test111 Input Data Kota KTP Field Empty (User)" time="20.786">
+        <system-out><![CDATA[When Test111 Klik Tombol Input..............................................passed
+And Test111 Validasi Halaman Form Input.....................................passed
+And Test111 Input TextField Nama mamamia....................................passed
+And Test111 Input TextField noBpjs 1248674570256............................passed
+And Test111 Input TextField noKtp 4128946273017666..........................passed
+And Test111 Input TextField Alamat dimana...................................passed
+And Test111 Input TextField KotaKtp ........................................passed
+And Test111 Input TextField FaskesAwal di mana..............................passed
+And Test111 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test111 Input TextField Alasan ingin....................................passed
+Then Test111 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test112 Input Data Faskes Awal Field Empty (User)" time="21.205">
+        <system-out><![CDATA[When Test112 Klik Tombol Input..............................................passed
+And Test112 Validasi Halaman Form Input.....................................passed
+And Test112 Input TextField Nama mamamia....................................passed
+And Test112 Input TextField noBpjs 1248674570256............................passed
+And Test112 Input TextField noKtp 4128946273017666..........................passed
+And Test112 Input TextField Alamat dimana...................................passed
+And Test112 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test112 Input TextField FaskesAwal .....................................passed
+And Test112 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test112 Input TextField Alasan ingin....................................passed
+Then Test112 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test113 Input Data Nama dan NoBPJS Field Empty (User)" time="20.904">
+        <system-out><![CDATA[When Test113 Klik Tombol Input..............................................passed
+And Test113 Validasi Halaman Form Input.....................................passed
+And Test113 Input TextField Nama ...........................................passed
+And Test113 Input TextField noBpjs .........................................passed
+And Test113 Input TextField noKtp 4128946273017666..........................passed
+And Test113 Input TextField Alamat dimana...................................passed
+And Test113 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test113 Input TextField FaskesAwal di mana..............................passed
+And Test113 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test113 Input TextField Alasan ingin....................................passed
+Then Test113 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test114 Input Data NoBpjs dan NoKTP Field Empty (User)" time="21.018">
+        <system-out><![CDATA[When Test114 Klik Tombol Input..............................................passed
+And Test114 Validasi Halaman Form Input.....................................passed
+And Test114 Input TextField Nama mamamia....................................passed
+And Test114 Input TextField noBpjs .........................................passed
+And Test114 Input TextField noKtp ..........................................passed
+And Test114 Input TextField Alamat dimana...................................passed
+And Test114 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test114 Input TextField FaskesAwal di mana..............................passed
+And Test114 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test114 Input TextField Alasan ingin....................................passed
+Then Test114 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test115 Input Data NoKTP dan Alamat Field Empty (User)" time="20.82">
+        <system-out><![CDATA[When Test115 Klik Tombol Input..............................................passed
+And Test115 Validasi Halaman Form Input.....................................passed
+And Test115 Input TextField Nama mamamia....................................passed
+And Test115 Input TextField noBpjs 1248674570256............................passed
+And Test115 Input TextField noKtp ..........................................passed
+And Test115 Input TextField Alamat .........................................passed
+And Test115 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test115 Input TextField FaskesAwal di mana..............................passed
+And Test115 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test115 Input TextField Alasan ingin....................................passed
+Then Test115 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test116 Input Data Alamat dan KotaKTP Field Empty (User)" time="20.782">
+        <system-out><![CDATA[When Test116 Klik Tombol Input..............................................passed
+And Test116 Validasi Halaman Form Input.....................................passed
+And Test116 Input TextField Nama mamamia....................................passed
+And Test116 Input TextField noBpjs 1248674570256............................passed
+And Test116 Input TextField noKtp 4128946273017666..........................passed
+And Test116 Input TextField Alamat .........................................passed
+And Test116 Input TextField KotaKtp ........................................passed
+And Test116 Input TextField FaskesAwal di mana..............................passed
+And Test116 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test116 Input TextField Alasan ingin....................................passed
+Then Test116 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test117 Input Data KotaKTP dan FaskesAwal Field Empty (User)" time="21.196">
+        <system-out><![CDATA[When Test117 Klik Tombol Input..............................................passed
+And Test117 Validasi Halaman Form Input.....................................passed
+And Test117 Input TextField Nama mamamia....................................passed
+And Test117 Input TextField noBpjs 1248674570256............................passed
+And Test117 Input TextField noKtp 4128946273017666..........................passed
+And Test117 Input TextField Alamat dimana...................................passed
+And Test117 Input TextField KotaKtp ........................................passed
+And Test117 Input TextField FaskesAwal .....................................passed
+And Test117 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test117 Input TextField Alasan ingin....................................passed
+Then Test117 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test118 Input Data Nama NoBpjs dan NoKtp Field Empty (User)" time="21.361">
+        <system-out><![CDATA[When Test118 Klik Tombol Input..............................................passed
+And Test118 Validasi Halaman Form Input.....................................passed
+And Test118 Input TextField Nama ...........................................passed
+And Test118 Input TextField noBpjs .........................................passed
+And Test118 Input TextField noKtp ..........................................passed
+And Test118 Input TextField Alamat dimana...................................passed
+And Test118 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test118 Input TextField FaskesAwal di mana..............................passed
+And Test118 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test118 Input TextField Alasan ingin....................................passed
+Then Test118 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test119 Input Data NoBpjs NoKtp Dan Alamat Field Empty (User)" time="21.331">
+        <system-out><![CDATA[When Test119 Klik Tombol Input..............................................passed
+And Test119 Validasi Halaman Form Input.....................................passed
+And Test119 Input TextField Nama mamamia....................................passed
+And Test119 Input TextField noBpjs .........................................passed
+And Test119 Input TextField noKtp ..........................................passed
+And Test119 Input TextField Alamat .........................................passed
+And Test119 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test119 Input TextField FaskesAwal di mana..............................passed
+And Test119 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test119 Input TextField Alasan ingin....................................passed
+Then Test119 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test120 Input Data NoKtp alamat Dan kotaKTP Field Empty (User)" time="21.795">
+        <system-out><![CDATA[When Test120 Klik Tombol Input..............................................passed
+And Test120 Validasi Halaman Form Input.....................................passed
+And Test120 Input TextField Nama mamamia....................................passed
+And Test120 Input TextField noBpjs 1248674570256............................passed
+And Test120 Input TextField noKtp ..........................................passed
+And Test120 Input TextField Alamat .........................................passed
+And Test120 Input TextField KotaKtp ........................................passed
+And Test120 Input TextField FaskesAwal di mana..............................passed
+And Test120 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test120 Input TextField Alasan ingin....................................passed
+Then Test120 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test121 Input Data alamat kotaKTP dan FaskesAwal Field Empty (User)" time="20.955">
+        <system-out><![CDATA[When Test121 Klik Tombol Input..............................................passed
+And Test121 Validasi Halaman Form Input.....................................passed
+And Test121 Input TextField Nama mamamia....................................passed
+And Test121 Input TextField noBpjs 1248674570256............................passed
+And Test121 Input TextField noKtp 4128946273017666..........................passed
+And Test121 Input TextField Alamat .........................................passed
+And Test121 Input TextField KotaKtp ........................................passed
+And Test121 Input TextField FaskesAwal .....................................passed
+And Test121 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test121 Input TextField Alasan ingin....................................passed
+Then Test121 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test122 Input Data Nama noBpjs noKTP dan Alamat Field Empty (User)" time="21.049">
+        <system-out><![CDATA[When Test122 Klik Tombol Input..............................................passed
+And Test122 Validasi Halaman Form Input.....................................passed
+And Test122 Input TextField Nama ...........................................passed
+And Test122 Input TextField noBpjs .........................................passed
+And Test122 Input TextField noKtp ..........................................passed
+And Test122 Input TextField Alamat .........................................passed
+And Test122 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test122 Input TextField FaskesAwal di mana..............................passed
+And Test122 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test122 Input TextField Alasan ingin....................................passed
+Then Test122 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test123 Input Data noBpjs noKTP Alamat dan KotaKTP Field Empty (User)" time="20.853">
+        <system-out><![CDATA[When Test123 Klik Tombol Input..............................................passed
+And Test123 Validasi Halaman Form Input.....................................passed
+And Test123 Input TextField Nama mamamia....................................passed
+And Test123 Input TextField noBpjs .........................................passed
+And Test123 Input TextField noKtp ..........................................passed
+And Test123 Input TextField Alamat .........................................passed
+And Test123 Input TextField KotaKtp ........................................passed
+And Test123 Input TextField FaskesAwal di mana..............................passed
+And Test123 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test123 Input TextField Alasan ingin....................................passed
+Then Test123 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test124 Input Data noKTP Alamat KotaKTP dan FaskesAwal Field Empty (User)" time="21.465">
+        <system-out><![CDATA[When Test124 Klik Tombol Input..............................................passed
+And Test124 Validasi Halaman Form Input.....................................passed
+And Test124 Input TextField Nama mamamia....................................passed
+And Test124 Input TextField noBpjs 1248674570256............................passed
+And Test124 Input TextField noKtp ..........................................passed
+And Test124 Input TextField Alamat .........................................passed
+And Test124 Input TextField KotaKtp ........................................passed
+And Test124 Input TextField FaskesAwal .....................................passed
+And Test124 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test124 Input TextField Alasan ingin....................................passed
+Then Test124 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test125 Input Data Nama noBpjs noKtp Alamat dan KotaKTP Field Empty (User)" time="22.269">
+        <system-out><![CDATA[When Test125 Klik Tombol Input..............................................passed
+And Test125 Validasi Halaman Form Input.....................................passed
+And Test125 Input TextField Nama ...........................................passed
+And Test125 Input TextField noBpjs .........................................passed
+And Test125 Input TextField noKtp ..........................................passed
+And Test125 Input TextField Alamat .........................................passed
+And Test125 Input TextField KotaKtp ........................................passed
+And Test125 Input TextField FaskesAwal di mana..............................passed
+And Test125 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test125 Input TextField Alasan ingin....................................passed
+Then Test125 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test126 Input Data Nama noBpjs noKtp Alamat KotaKTP Dan FaskesAwal Field Empty (User)" time="22.189">
+        <system-out><![CDATA[When Test126 Klik Tombol Input..............................................passed
+And Test126 Validasi Halaman Form Input.....................................passed
+And Test126 Input TextField Nama ...........................................passed
+And Test126 Input TextField noBpjs .........................................passed
+And Test126 Input TextField noKtp ..........................................passed
+And Test126 Input TextField Alamat .........................................passed
+And Test126 Input TextField KotaKtp ........................................passed
+And Test126 Input TextField FaskesAwal .....................................passed
+And Test126 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test126 Input TextField Alasan ingin....................................passed
+Then Test126 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test127 Input Data All Field Empty (User)" time="19.862">
+        <system-out><![CDATA[When Test127 Klik Tombol Input..............................................passed
+And Test127 Validasi Halaman Form Input.....................................passed
+And Test127 Input TextField Nama ...........................................passed
+And Test127 Input TextField noBpjs .........................................passed
+And Test127 Input TextField noKtp ..........................................passed
+And Test127 Input TextField Alamat .........................................passed
+And Test127 Input TextField KotaKtp ........................................passed
+And Test127 Input TextField FaskesAwal .....................................passed
+And Test127 Input TextField FaskesTujuan ...................................passed
+Then Test127 Klik Tombol Submit Dan Validation..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Input Negatif" name="Test128 Input Data noBpjs dan noKTP Field Same (User)" time="26.173">
+        <system-out><![CDATA[When Test128 Klik Tombol Input..............................................passed
+And Test128 Validasi Halaman Form Input.....................................passed
+And Test128 Input TextField Nama mamamia....................................passed
+And Test128 Input TextField noBpjs 1248674570256............................passed
+And Test128 Input TextField noKtp 1248674570256.............................passed
+And Test128 Input TextField Alamat dimana...................................passed
+And Test128 Input TextField KotaKtp KOTA JAKARTA SELATAN....................passed
+And Test128 Input TextField FaskesAwal di mana..............................passed
+And Test128 Input TextField FaskesTujuan Siloam Clinic Grand Galaxy.........passed
+And Test128 Input TextField Alasan ingin....................................passed
+And Test128 Klik Tombol Submit Dan Validation...............................passed
+And Test128 Klik Profil.....................................................passed
+Then Test128 Klik Logout....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upload Negatif" name="Test129 Login Valid  (User)" time="9.058">
+        <system-out><![CDATA[When Test129 Membuka Halaman Login..........................................passed
+And Test129 Clear Field Username Dan Password...............................passed
+And Test129 Input TextField K6400001 Yang Valid One.........................passed
+And Test129 Input TextField a Yang Valid Two................................passed
+And Test129 Klik Tombol Login...............................................passed
+Then Test129 Validasi Pada Halaman Home.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upload Negatif" name="Test130 Input Data Valid" time="23.214">
+        <system-out><![CDATA[When Test130 Klik Tombol Input..............................................passed
+And Test130 Validasi Halaman Form Input.....................................passed
+And Test130 Input Nama siapa saya...........................................passed
+And Test130 Input NoBpjs 1248674570134......................................passed
+And Test130 Input NoKTP 4128946273017444....................................passed
+And Test130 Input Alamat di sini............................................passed
+And Test130 Input kotaKTP KOTA JAKARTA SELATAN..............................passed
+And Test130 Input FaskesAwal di sana........................................passed
+And Test130 Input FaskesTujuan Siloam Clinic Grand Galaxy...................passed
+And Test130 Input Alasan ingin..............................................passed
+Then Test130 Klik Tombol Simpan Data........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Upload Negatif" name="Test131 Upload Foto &gt;5mb" time="27.487">
+        <system-out><![CDATA[When Test131 Validasi Halaman Upload Dokumen................................passed
+And Test131 Klik Upload Foto Faskes Awal....................................passed
+And Test131 Memilih \foto\1.jpg Pada Komputer Satu..........................passed
+And Test131 Klik Simpan Foto Faskes Awal....................................passed
+And Test131 Validasi Foto Faskes Awal.......................................passed
+And Test131 Klik Cancel Faskes Awal.........................................passed
+And Test131 Klik Upload Foto Faskes Tujuan..................................passed
+And Test131 Memilih \foto\2.jpg Pada Komputer Dua...........................passed
+And Test131 Klik Simpan Foto Faskes Tujuan..................................passed
+And Test131 Validasi Foto Faskes Tujuan.....................................passed
+And Test131 Klik Cancel Faskes Tujuan.......................................passed
+And Test131 Klik Upload Foto Tanda Tangan...................................passed
+And Test131 Memilih \foto\3.jpg Pada Komputer Tiga..........................passed
+And Test131 Klik Simpan Foto Tanda Tangan...................................passed
+And Test131 Validasi Foto Tanda Tangan......................................passed
+And Test131 Klik Cancel Tanda Tangan........................................passed
+And Test131 Klik Profil.....................................................passed
+Then Test131 Klik Logout....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Tanda Tangan Positif Edit Personal" name="Test135 Valid Login Username (User)" time="8.203">
+        <system-out><![CDATA[When Test135 Membuka Halaman Login..........................................passed
+And Test135 Clear Field Username Dan Password...............................passed
+And Test135 Input TextField K6400001 Yang Valid One.........................passed
+And Test135 Input TextField a Yang Valid Two................................passed
+And Test135 Klik Tombol Login...............................................passed
+Then Test135 Validasi Pada Halaman Home.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Tanda Tangan Positif Edit Personal" name="Test136 Valid Input Data" time="23.069">
+        <system-out><![CDATA[When Test136 Klik Tombol Input..............................................passed
+And Test136 Validasi Halaman Form Input.....................................passed
+And Test136 Input TextField siapa saya Valid Satu...........................passed
+And Test136 Input TextField 1248674570982 Valid Dua.........................passed
+And Test136 Input TextField 4128946273017369 Valid Tiga.....................passed
+And Test136 Input TextField di sini Valid Empat.............................passed
+And Test136 Input TextField KOTA JAKARTA SELATAN Valid Lima.................passed
+And Test136 Input TextField di sana Valid Enam..............................passed
+And Test136 Input TextField Siloam Clinic Grand Galaxy Valid Tujuh..........passed
+And Test136 Input TextField ingin Valid Delapan.............................passed
+Then Test136 Klik Tombol Simpan Data........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Tanda Tangan Positif Edit Personal" name="Test137 Valid Upload Foto" time="21.106">
+        <system-out><![CDATA[When Test137 Validasi Halaman Upload Dokumen................................passed
+And Test137 Klik Upload Foto Faskes Awal....................................passed
+And Test137 Memilih \foto\excel_ms-5bfc379146e0fb00511cdefe.jpg Pada Komputer Satu.passed
+And Test137 Klik Simpan Foto Faskes Awal....................................passed
+Then Test137 Klik Ok Data Faskes Awal Berhasil Upload.......................passed
+And Test137 Klik Upload Foto Faskes Tujuan..................................passed
+And Test137 Memilih \foto\kissclipart-struktur-data-clipart-data-management-big-data-0756d9f65df60146.jpg Pada Komputer Dua.passed
+And Test137 Klik Simpan Foto Faskes Tujuan..................................passed
+And Test137 Klik Ok Data Faskes Tujuan Berhasil Upload......................passed
+And Test137 Klik Upload Foto Tanda Tangan...................................passed
+And Test137 Memilih \foto\TABLEAU_SOFTWARE_LOGOjpg_Logo.jpg Pada Komputer Tiga.passed
+And Test137 Klik Simpan Foto Tanda Tangan...................................passed
+And Test137 Klik Ok Data Tanda Tangan Berhasil Upload.......................passed
+And Test137 Validasi Dokumen Lengkap........................................passed
+And Test137 Klik Selanjutnya................................................passed
+Then Test137 Klik Ok Pop Up.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Tanda Tangan Positif Edit Personal" name="Test138 Tanda Tangan Digital Edit Personal" time="18.311">
+        <system-out><![CDATA[When Test138 Validasi Halaman Tanda Tangan Digital..........................passed
+And Test138 Klik Tombol Edit................................................passed
+And Test138 Clear Field NoBpjs..............................................passed
+And Test138 Input TextField noBpjs..........................................passed
+And Test138 Klik Tombol Submit Edit Personal................................passed
+And Test138 Validasi Simpan Personal........................................passed
+And Test138 Scroll Paling Bawah.............................................passed
+And Test138 Klik Tombol Submit..............................................passed
+And Test138 Klik Ok Pop Up..................................................passed
+And Test138 Klik Profil.....................................................passed
+And Test138 Klik Logout.....................................................passed
+Then Test138 Validasi Login Page............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Tanda Tangan Positif Edit Photo" name="Test139 Valid Login Username (User)" time="8.973">
+        <system-out><![CDATA[When Test139 Membuka Halaman Login..........................................passed
+And Test139 Clear Field Username Dan Password...............................passed
+And Test139 Input TextField K6400001 Yang Valid One.........................passed
+And Test139 Input TextField a Yang Valid Two................................passed
+And Test139 Klik Tombol Login...............................................passed
+Then Test139 Validasi Pada Halaman Home.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Tanda Tangan Positif Edit Photo" name="Test140 Valid Input Data" time="23.162">
+        <system-out><![CDATA[When Test140 Klik Tombol Input..............................................passed
+And Test140 Validasi Halaman Form Input.....................................passed
+And Test140 Input TextField siapa saya Valid Satu...........................passed
+And Test140 Input TextField 1248674570982 Valid Dua.........................passed
+And Test140 Input TextField 4128946273017369 Valid Tiga.....................passed
+And Test140 Input TextField di sini Valid Empat.............................passed
+And Test140 Input TextField KOTA JAKARTA SELATAN Valid Lima.................passed
+And Test140 Input TextField di sana Valid Enam..............................passed
+And Test140 Input TextField Siloam Clinic Grand Galaxy Valid Tujuh..........passed
+And Test140 Input TextField ingin Valid Delapan.............................passed
+Then Test140 Klik Tombol Simpan Data........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Tanda Tangan Positif Edit Photo" name="Test141 Valid Upload Foto" time="21.085">
+        <system-out><![CDATA[When Test141 Validasi Halaman Upload Dokumen................................passed
+And Test141 Klik Upload Foto Faskes Awal....................................passed
+And Test141 Memilih \foto\excel_ms-5bfc379146e0fb00511cdefe.jpg Pada Komputer Satu.passed
+And Test141 Klik Simpan Foto Faskes Awal....................................passed
+Then Test141 Klik Ok Data Faskes Awal Berhasil Upload.......................passed
+And Test141 Klik Upload Foto Faskes Tujuan..................................passed
+And Test141 Memilih \foto\kissclipart-struktur-data-clipart-data-management-big-data-0756d9f65df60146.jpg Pada Komputer Dua.passed
+And Test141 Klik Simpan Foto Faskes Tujuan..................................passed
+And Test141 Klik Ok Data Faskes Tujuan Berhasil Upload......................passed
+And Test141 Klik Upload Foto Tanda Tangan...................................passed
+And Test141 Memilih \foto\TABLEAU_SOFTWARE_LOGOjpg_Logo.jpg Pada Komputer Tiga.passed
+And Test141 Klik Simpan Foto Tanda Tangan...................................passed
+And Test141 Klik Ok Data Tanda Tangan Berhasil Upload.......................passed
+And Test141 Validasi Dokumen Lengkap........................................passed
+And Test141 Klik Selanjutnya................................................passed
+Then Test141 Klik Ok Pop Up.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Tanda Tangan Positif Edit Photo" name="Test142 Tanda Tangan Digital Edit Photo" time="16.757">
+        <system-out><![CDATA[When Test142 Validasi Halaman Tanda Tangan Digital..........................passed
+And Test142 Scroll Bawah....................................................passed
+And Test142 Klik Add Files TTD..............................................passed
+And Test142 Memilih \foto\analysis_2318736.png Pada Komputer Tiga...........passed
+And Test142 Klik Save Foto Tanda Tangan.....................................passed
+And Test142 Klik Ok Data Tanda Tangan Berhasil Upload.......................passed
+And Test142 Scroll Paling Bawah.............................................passed
+And Test142 Klik Tombol Submit..............................................passed
+And Test142 Klik Ok Pop Up..................................................passed
+And Test142 Klik Profil.....................................................passed
+And Test142 Klik Logout.....................................................passed
+Then Test142 Validasi Login Page............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Negatif Admin" name="Test143 Login Negatif (User)" time="7.466">
+        <system-out><![CDATA[When Test143 Membuka Halaman Login..........................................passed
+And Test143 Clear Field Username Dan Password...............................passed
+And Test143 Input TextField Username Kosong.................................passed
+And Test143 Input TextField Password Kosong.................................passed
+Then Test143 Klik Tombol Login Dan Validation...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Negatif Admin" name="Test144 Login Negatif Password Invalid (user)" time="6.222">
+        <system-out><![CDATA[And Test144 Clear Field Username Dan Password...............................passed
+And Test144 Input TextField Username Valid admindika........................passed
+And Test144 Input TextField Password Invalid b..............................passed
+Then Test144 Klik Tombol Login Dan Validation...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Negatif Admin" name="Test145 Login Negatif Username Invalid (user)" time="6.366">
+        <system-out><![CDATA[And Test145 Clear Field Username Dan Password...............................passed
+And Test145 Input TextField Username Invalid K6400000.......................passed
+And Test145 Input TextField Password Valid d1k4@passw0rd....................passed
+Then Test145 Klik Tombol Login Dan Validation...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Negatif Admin" name="Test146 Login Negatif Username Invalid Dan Password Invalid (user)" time="6.378">
+        <system-out><![CDATA[And Test146 Clear Field Username Dan Password...............................passed
+And Test146 Input TextField Username Invalid K6400000.......................passed
+And Test146 Input TextField Password Invalid b..............................passed
+Then Test146 Klik Tombol Login Dan Validation...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

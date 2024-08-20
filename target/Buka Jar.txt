@@ -1,0 +1,1 @@
+Java -jar kurniawansqa-jar-with-dependencies.jar
