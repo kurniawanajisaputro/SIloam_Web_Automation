@@ -23,7 +23,7 @@ Here're some of the project's best features:
 <p>1. Download the jar file from link</p>
 
 ```
-https://drive.google.com/drive/folders/1fTqXJpmQA54VBuFBAIWilluC87t78k1c?usp=sharing
+[Link Download](https://drive.google.com/drive/folders/1fTqXJpmQA54VBuFBAIWilluC87t78k1c?usp=sharing)
 ```
 
 <p>2. Open CMD and jar file directory</p>
