@@ -22,6 +22,10 @@ Here're some of the project's best features:
 
 <p>1. Download the jar file from target folder</p>
 
+```
+[Siloam Web Jar]([https://drive.google.com/drive/folders/1fTqXJpmQA54VBuFBAIWilluC87t78k1c?usp=sharing))
+```
+
 <p>2. Open CMD and jar file directory</p>
 
 <p>3. run</p>
