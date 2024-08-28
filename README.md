@@ -8,12 +8,7 @@
 
 [Demo Siloam Web Automation](https://youtu.be/gA4xHARZbVU)
 
-<h2>Project Screenshots:</h2>
 
-<img src="" alt="project-screenshot" width="100" height="100/">
-
-  
-  
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:
@@ -23,7 +18,7 @@ Here're some of the project's best features:
 <p>1. Download the jar file from link</p>
 
 ```
-[Link Download](https://drive.google.com/drive/folders/1fTqXJpmQA54VBuFBAIWilluC87t78k1c?usp=sharing)
+https://drive.google.com/drive/folders/1fTqXJpmQA54VBuFBAIWilluC87t78k1c?usp=sharing
 ```
 
 <p>2. Open CMD and jar file directory</p>
