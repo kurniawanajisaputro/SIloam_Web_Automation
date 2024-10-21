@@ -10,8 +10,8 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="" alt="project-screenshot" width="100" height="100/">
-
+<img src="Report1.JPG" alt="project-screenshot" width="100" height="100/">
+<img src="Report2.JPG" alt="project-screenshot" width="100" height="100/">
 
 <h2>🧐 Features</h2>
 
