@@ -8,10 +8,14 @@
 
 [Demo Siloam Web Automation](https://youtu.be/gA4xHARZbVU)
 
-<h2>Project Report:</h2>
+<h2>Selenium Report:</h2>
 
 <img src="Report1.JPG" alt="project-screenshot" width="500" height="500/">
 <img src="Report2.JPG" alt="project-screenshot" width="500" height="500/">
+
+<h2>Cucumber Report:</h2>
+
+<img src="Report3.JPG" alt="project-screenshot" width="500" height="500/">
 
 <h2>🧐 Features</h2>
 
