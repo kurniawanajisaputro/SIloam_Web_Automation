@@ -8,8 +8,6 @@
 
 [Demo Siloam Web Automation](https://youtu.be/gA4xHARZbVU)
 
-<h2>Project Report:</h2>
-
 <h2>Selenium Report:</h2>
 
 <img src="Report1.JPG" alt="project-screenshot" width="500" height="500/">
