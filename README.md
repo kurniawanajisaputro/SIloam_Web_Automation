@@ -8,10 +8,10 @@
 
 [Demo Siloam Web Automation](https://youtu.be/gA4xHARZbVU)
 
-<h2>Project Screenshots:</h2>
+<h2>Project Report:</h2>
 
-<img src="Report1.JPG" alt="project-screenshot" width="100" height="100/">
-<img src="Report2.JPG" alt="project-screenshot" width="100" height="100/">
+<img src="Report1.JPG" alt="project-screenshot" width="1000" height="1000/">
+<img src="Report2.JPG" alt="project-screenshot" width="1000" height="1000/">
 
 <h2>🧐 Features</h2>
 
