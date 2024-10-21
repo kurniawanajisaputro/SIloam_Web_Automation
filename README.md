@@ -8,6 +8,10 @@
 
 [Demo Siloam Web Automation](https://youtu.be/gA4xHARZbVU)
 
+<h2>Project Screenshots:</h2>
+
+<img src="" alt="project-screenshot" width="100" height="100/">
+
 
 <h2>🧐 Features</h2>
 
